@@ -1,0 +1,7 @@
+[user]
+	email = gilles.leblanc@gmail.com
+	name = Gilles Leblanc
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
