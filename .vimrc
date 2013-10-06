@@ -7,9 +7,7 @@ filetype plugin indent on
 set laststatus=2
 
 "" Line numbering
-set relativenumber
-autocmd InsertEnter * :set number
-autocmd InsertLeave * :set relativenumber
+set number
 
 "" Search show match
 set showmatch
