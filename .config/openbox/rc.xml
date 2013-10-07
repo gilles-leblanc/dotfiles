@@ -372,7 +372,7 @@
         <action name="FocusToBottom"/>
         <action name="Unfocus"/>
       </mousebind>
-      <mousebind button="A-Up" action="Click">
+      <!--<mousebind button="A-Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
         </action>
@@ -381,7 +381,7 @@
         <action name="GoToDesktop">
           <to>next</to>
         </action>
-      </mousebind>
+      </mousebind>-->
       <mousebind button="C-A-Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
@@ -692,8 +692,10 @@
        entry in parent menu
        if this is a negative value, then the delay is infinite and the
        submenu will not be hidden until a different submenu is opened -->
-    <applicationIcons>yes</applicationIcons>
+    <applicationIcons>no</applicationIcons>
     <!-- controls if icons appear in the client-list-(combined-)menu -->
+    <showIcons>no</showIcons>
+    <!-- icons in menu entries -->
     <manageDesktops>yes</manageDesktops>
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
