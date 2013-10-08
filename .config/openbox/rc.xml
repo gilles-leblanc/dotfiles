@@ -790,5 +790,11 @@
 
   # end of the example
 -->
+    <application name="xclock">
+      <position force="yes">
+        <x>3650</x>
+        <y>870</y>
+      </position>
+    </application>
   </applications>
 </openbox_config>
