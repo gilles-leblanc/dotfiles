@@ -7,3 +7,5 @@
 	tool = vimdiff
 [color]
 	ui = true
+[credential "https://github.com"]
+  username = gilles-leblanc
