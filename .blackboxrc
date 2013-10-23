@@ -1,0 +1,3 @@
+session.styleFile:	/usr/share/blackbox/styles/Green
+session.screen0.workspaces: 2
+session.screen0.workspaceNames: Workspace 1, Workspace 2
