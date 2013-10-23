@@ -6,6 +6,10 @@ set encoding=utf-8
 filetype plugin indent on
 set laststatus=2
 
+"" matchit
+set nocompatible
+runtime macros/matchit.vim
+
 "" Line numbering
 set number
 
