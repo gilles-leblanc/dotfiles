@@ -5,6 +5,11 @@ colorscheme molokai
 set encoding=utf-8
 filetype plugin indent on
 set laststatus=2
+set hidden
+
+"" Persistent undos
+set undofile
+set undodir=~/.vimundo/
 
 "" matchit
 set nocompatible
