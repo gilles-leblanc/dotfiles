@@ -1,3 +1,4 @@
 # Programs that will run after Openbox has started
 x-terminal-emulator &
 xclock &
+x-www-browser &
