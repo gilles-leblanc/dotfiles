@@ -9,3 +9,5 @@
 	ui = true
 [credential "https://github.com"]
   username = gilles-leblanc
+[credential]
+	helper = cache --timeout=300
