@@ -11,3 +11,10 @@
   username = gilles-leblanc
 [credential]
 	helper = cache --timeout=300
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  lg = log -p
