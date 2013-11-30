@@ -15,6 +15,9 @@
   <item label="xclock">
     <action name="Execute"><execute>xclock</execute></action>
   </item>
+  <item label="thunderbird">
+    <action name="Execute"><execute>/usr/bin/thunderbird</execute></action>
+  </item>
   <!-- This requires the presence of the 'menu' package to work -->
   <separator />
   <menu id="client-list-menu" />
