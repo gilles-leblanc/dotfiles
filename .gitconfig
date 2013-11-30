@@ -10,7 +10,7 @@
 [credential "https://github.com"]
   username = gilles-leblanc
 [credential]
-	helper = cache --timeout=300
+	helper = cache --timeout=1200
 [alias]
   st = status
   ci = commit
