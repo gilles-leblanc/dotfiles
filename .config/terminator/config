@@ -1,0 +1,28 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+[keybindings]
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#222222:#ff2277:#aaed23:#febb77:#66ddee:#aa88ff:#a9eeed:#eeeeec:#777756:#ff2277:#aaed23:#febb77:#66ddee:#aa88ff:#a9eeed:#eeeeec"
+    login_shell = True
+    scrollback_lines = 5000
+    cursor_shape = underline
+    use_system_font = False
+    cursor_color = "#fffffe"
+    foreground_color = "#fffffe"
+    show_titlebar = False
+    font = Droid Sans Mono 12
+    background_color = "#222222"
+    cursor_blink = False
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+      size = 1024, 800
+[plugins]
