@@ -320,7 +320,7 @@
       </action>
     </keybind>
     <!-- Keybindings for running applications -->
-    <keybind key="W-t">
+    <keybind key="W-e">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
@@ -790,12 +790,18 @@
 
   # end of the example
 -->
-    <application name="xclock">
-      <position force="yes">
-        <x>3650</x>
-        <y>870</y>
-      </position>
-      <desktop>all</desktop>
-    </application>
-  </applications>
+   <application name="xclock">
+     <position force="yes">
+       <x>50</x>
+       <y>870</y>
+     </position>
+     <desktop>all</desktop>
+   </application>
+   <application name="x-terminal-emulator">
+     <position force="yes">
+       <x>2010</x>
+       <y>135</y>
+     </position>
+   </application>
+ </applications>
 </openbox_config>
