@@ -320,7 +320,7 @@
       </action>
     </keybind>
     <!-- Keybindings for running applications -->
-    <keybind key="W-e">
+    <keybind key="W-t">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
@@ -792,15 +792,21 @@
 -->
    <application name="xclock">
      <position force="yes">
-       <x>50</x>
+       <x>3650</x>
        <y>870</y>
      </position>
      <desktop>all</desktop>
    </application>
    <application name="x-terminal-emulator">
      <position force="yes">
-       <x>2010</x>
+       <x>510</x>
        <y>135</y>
+     </position>
+   </application>
+   <application name="x-www-browser">
+     <position force="yes">
+       <x>2010</x>
+       <y>10</y>
      </position>
    </application>
  </applications>

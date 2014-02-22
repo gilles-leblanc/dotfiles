@@ -1,5 +1,6 @@
 [global_config]
   enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  window_state = fullscreen
 [keybindings]
 [profiles]
   [[default]]
@@ -17,12 +18,25 @@
     cursor_blink = False
 [layouts]
   [[default]]
-    [[[child1]]]
-      type = Terminal
-      parent = window0
-      profile = default
-    [[[window0]]]
+    [[[child0]]]
+      position = 0:0
       type = Window
+      order = 0
       parent = ""
-      size = 1024, 800
+      size = 1920, 1080
+    [[[child1]]]
+      position = 540
+      type = VPaned
+      order = 0
+      parent = child0
+    [[[terminal3]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child1
+    [[[terminal2]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child1
 [plugins]
