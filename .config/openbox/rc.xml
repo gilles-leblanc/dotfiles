@@ -809,5 +809,11 @@
        <y>10</y>
      </position>
    </application>
+   <application name="workrave">
+     <position force="yes">
+       <x>3650</x>
+       <y>500</y>
+     </position>
+   </application>
  </applications>
 </openbox_config>
