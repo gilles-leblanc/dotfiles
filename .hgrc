@@ -1,0 +1,11 @@
+[ui]
+editor = vim
+merge = vimdiff
+username = Gilles Leblanc <gilles.leblanc@gmail.com>
+
+[merge-tools]
+vimdiff.executable = vim
+vimdiff.args = -d $output $local $other -c "wincmd J"
+
+[extensions]
+color =
