@@ -9,3 +9,6 @@ vimdiff.args = -d $output $local $other -c "wincmd J"
 
 [extensions]
 color =
+hgext.rebase =
+mq =
+fetch =
