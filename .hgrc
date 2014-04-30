@@ -12,3 +12,4 @@ color =
 hgext.rebase =
 mq =
 fetch =
+shelve =
