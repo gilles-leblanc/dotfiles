@@ -1,3 +1,8 @@
+[alias]
+lg = log --limit 5
+st = status
+df = diff
+
 [ui]
 editor = vim
 merge = vimdiff
