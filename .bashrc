@@ -1,5 +1,4 @@
 # Load RVM into a shell session *as a function*
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 rvm default
 
 set -o vi
@@ -16,3 +15,5 @@ export dispatcher="/home/bleakcabal/Documents/Programming/dispatcher/"
 
 # Saves to history file after each command is entered. Prevents losses when using mutliple terminals
 export PROMPT_COMMAND='history -a'
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
