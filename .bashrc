@@ -17,3 +17,6 @@ export dispatcher="/home/bleakcabal/Documents/Programming/dispatcher/"
 
 # Saves to history file after each command is entered. Prevents losses when using mutliple terminals
 export PROMPT_COMMAND='history -a'
+
+# Customize bash prompt
+PS1='\e[01;32m\u\[\033[01;34m\] \w \$\[\033[00m\] '
