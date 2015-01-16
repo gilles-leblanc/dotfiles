@@ -1,4 +1,5 @@
 execute pathogen#infect()
+filetype off
 syntax enable
 set t_Co=256
 colorscheme molokai
@@ -56,3 +57,6 @@ autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
 
+"" racer config
+let g:racer_cmd = "/home/bleakcabal/opt/racer/bin/racer"
+let $RUST_SRC_PATH = "/home/bleakcabal/src/rust-nightly/src"
