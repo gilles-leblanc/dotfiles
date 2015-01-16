@@ -10,13 +10,19 @@ xmodmap ~/.xmodmap-Limbo
 
 # Allow custom directory name vars that work from everywhere
 shopt -s cdable_vars
-export reek="/home/bleakcabal/Documents/Programming/Ruby/reek/"
-export mozilla="/home/bleakcabal/Documents/Programming/Mozilla/"
-export game="/home/bleakcabal/Documents/Programming/Ruby/GameProject/gameproject/gameproject/"
-export dispatcher="/home/bleakcabal/Documents/Programming/dispatcher/"
+export game="/home/bleakcabal/Documents/gameproject/"
+export dispatcher="/home/bleakcabal/Documents/dispatcher/"
+export servo="/home/bleakcabal/Documents/servo/"
 
 # Saves to history file after each command is entered. Prevents losses when using mutliple terminals
 export PROMPT_COMMAND='history -a'
+
+# Rust source for racer
+export RUST_SRC_PATH="/home/bleakcabal/src/rust-nightly/src"
+
+# Go support
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH="/home/bleakcabal/Documents/go"
 
 # Customize bash prompt
 PS1='\e[01;32m\u\[\033[01;34m\] \w \$\[\033[00m\] '
