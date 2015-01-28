@@ -5,9 +5,6 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 set -o vi
 
-# Custom key mappings
-xmodmap ~/.xmodmap-Limbo
-
 # Allow custom directory name vars that work from everywhere
 shopt -s cdable_vars
 export game="/home/bleakcabal/Documents/gameproject/"
